@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Cura_TestSuite_LogintoLogout_001</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>ee309b08-fd72-4fca-9d2e-ad7bfdd9aae4</testSuiteGuid>
+   <testCaseLink>
+      <guid>f880229c-c369-4a67-a807-0b3b3953c239</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_CURA_Login_001</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c7f1a793-6495-4da3-9934-71402994f28c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Test Data/Cura_Login_TestData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>c7f1a793-6495-4da3-9934-71402994f28c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>UserName</value>
+         <variableId>d09ed43a-c37e-4551-b1e1-aaede44d7617</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c7f1a793-6495-4da3-9934-71402994f28c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>a6cf5986-d4b5-4214-93dc-b0cf026c4777</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>aeedd5d4-c502-43b7-b79d-27b2cbcafe76</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_CURA_MakeAppointment_validation_002</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>57f95f8b-cc5e-47a6-8234-a05efee9dbc4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>94f96f42-b76a-4c9f-8198-ace9e475ccd4</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b2d53c89-7c1f-4ae9-99ef-33116094a0bb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_CURA_VerifyTitle_003</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3e686b81-42b2-429e-a53b-d230597403d8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_CURA_Logout_004</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ba949755-b438-4dfc-80fc-f22360efcccb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c4fbe1b9-2261-49c8-9299-63cfb956b14b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d6a98ffe-e169-4759-b731-d33ec1cac753</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_CURA_History_005</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>95cac796-e145-41c6-aaf3-422131d50c4e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Test Data/Cura_Login_TestData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>95cac796-e145-41c6-aaf3-422131d50c4e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>UserName</value>
+         <variableId>ab394d46-9967-436e-a08e-47fdf8892c2f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>95cac796-e145-41c6-aaf3-422131d50c4e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>461b581e-73bf-417d-8e2a-e34a1b2742c9</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
